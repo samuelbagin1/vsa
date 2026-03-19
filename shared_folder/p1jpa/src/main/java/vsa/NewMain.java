@@ -9,9 +9,10 @@ import java.util.List;
 public class NewMain {
 
   public static void main(String[] args) {
-      citajKnihy();
+//      citajKnihy();
 //      zmenaCien();
-//      vytvorKnihu();
+      vytvorKnihu();
+      citajKnihy();
 //      najdiKnihu();
   
   }
@@ -76,15 +77,23 @@ public class NewMain {
     public static void vytvorKnihu() {
         Kniha k = new Kniha();
         k.setNazov("Pipi");
+        k.setIsbn("12345");
+        k.setDostupnost(Dostupnost.VYPREDANA);
+        k.setIsbn("1234dffdg");
+        k.setCena(22.3);
+        
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("vsaPU");
         EntityManager em = emf.createEntityManager();
+        
         em.getTransaction().begin();
         try {
             em.persist(k);
             em.getTransaction().commit();
+            
         } catch (Exception e) {
             e.printStackTrace();
             em.getTransaction().rollback();
+            
         } finally {
             em.close();
         }
