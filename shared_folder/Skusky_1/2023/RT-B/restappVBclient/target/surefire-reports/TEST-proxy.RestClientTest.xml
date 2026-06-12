@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="23" failures="0" name="proxy.RestClientTest" time="1.42" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/edu/Desktop/Cvicenia/Coding/Skusky/2023/RT-B/restappVBclient"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="proxy.RestClientTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/edu/Desktop/Cvicenia/Coding/Skusky/2023/RT-B/restappVBclient"/>
+    <property name="java.runtime.version" value="1.8.0_352-8u352-ga-1~20.04-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/opt/netbeans-12.1/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/opt/netbeans-12.1/netbeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/opt/netbeans-12.1/netbeans/java/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.4.0-136-generic"/>
+    <property name="library.jansi.path" value="/opt/netbeans-12.1/netbeans/java/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/edu"/>
+    <property name="user.timezone" value="Europe/Bratislava"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="edu"/>
+    <property name="java.class.path" value="/opt/netbeans-12.1/netbeans/java/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=proxy.RestClientTest -Dmaven.ext.class.path=/opt/netbeans-12.1/netbeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="/opt/netbeans-12.1/netbeans/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="proxy.RestClientTest" name="UT11_Z123Get_1B" time="0.976"/>
+  <testcase classname="proxy.RestClientTest" name="UT12_Z123Pocet0_1B" time="0.003"/>
+  <testcase classname="proxy.RestClientTest" name="UT13_Z123Majitel_2B" time="0"/>
+  <testcase classname="proxy.RestClientTest" name="UT14_Z123Post_1B" time="0.058"/>
+  <testcase classname="proxy.RestClientTest" name="UT15_Z123Pocet1_1B" time="0.008"/>
+  <testcase classname="proxy.RestClientTest" name="UT16_Z123String_1B" time="0.056"/>
+  <testcase classname="proxy.RestClientTest" name="UT21_PostPP1_1B" time="0.027"/>
+  <testcase classname="proxy.RestClientTest" name="UT22_PP1pocet0_1B" time="0"/>
+  <testcase classname="proxy.RestClientTest" name="UT23_PP1Majitel_2B" time="0"/>
+  <testcase classname="proxy.RestClientTest" name="UT24_PP1PostStano1_1B" time="0.006"/>
+  <testcase classname="proxy.RestClientTest" name="UT25_PP1pocet1_1B" time="0.013"/>
+  <testcase classname="proxy.RestClientTest" name="UT26_PP1GetStano1_1B" time="0.009"/>
+  <testcase classname="proxy.RestClientTest" name="UT27_PP1GetStano1_1B" time="0"/>
+  <testcase classname="proxy.RestClientTest" name="UT28_PP1PostStano2_1B" time="0.021"/>
+  <testcase classname="proxy.RestClientTest" name="UT29_PP1GetStano2_1B" time="0.021"/>
+  <testcase classname="proxy.RestClientTest" name="UT30_PP1GetStano1_1B" time="0"/>
+  <testcase classname="proxy.RestClientTest" name="UT31_GetZmluvaString_1B" time="0.012"/>
+  <testcase classname="proxy.RestClientTest" name="UT41_PP1DeletePosledne_1B" time="0.11"/>
+  <testcase classname="proxy.RestClientTest" name="UT42_PP1DeletePosledne_1B" time="0.053"/>
+  <testcase classname="proxy.RestClientTest" name="UT43_Z123DeletePosledne_1B" time="0.014"/>
+  <testcase classname="proxy.RestClientTest" name="UT51_GetXXX_1B" time="0.005"/>
+  <testcase classname="proxy.RestClientTest" name="UT52_PostXXX_1B" time="0.018"/>
+  <testcase classname="proxy.RestClientTest" name="UT53_PP1Get99_1B" time="0.01"/>
+</testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: clientTest.RestClientTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.225 s -- in clientTest.RestClientTest

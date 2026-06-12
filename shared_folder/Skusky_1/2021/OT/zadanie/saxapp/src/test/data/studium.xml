@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--názvy prednášok v letnom semestri a mená ich prednášajúcich-->
+<studium>
+    <zameranie>
+        <nazov>MASUS</nazov>
+        <prednaska semester="zimny">
+            <nazov>Programovanie</nazov>
+            <vyucujuci> 
+                <email>donald@stuba.sk</email>
+                <meno>Donald Knuth</meno>
+            </vyucujuci>
+        </prednaska>
+        
+        <prednaska semester="zimny">
+            <nazov>NeuronoveSiete</nazov>
+            <vyucujuci> 
+                <meno>Mrkvicka</meno>
+                <email>JM@stuba.sk</email>
+            </vyucujuci>
+        </prednaska>
+        
+        <prednaska semester="zimny" >
+            <nazov>Statistika</nazov>
+            <kod>Stat</kod>
+        </prednaska>
+    </zameranie> 
+      
+    <zameranie>
+        <nazov>BIS</nazov>
+        <prednaska semester="letny" >
+            <nazov>PocitacovaKriminalira</nazov>
+            <vyucujuci>
+                <meno>Hercule Poirot</meno>
+            </vyucujuci>
+        </prednaska>
+        
+        <prednaska>
+            <nazov>Statistika</nazov>
+            <vyucujuci>
+                <meno>Kolmogorov</meno>
+            </vyucujuci>
+        </prednaska>
+    </zameranie>   
+</studium>

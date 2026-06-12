@@ -1,0 +1,87 @@
+package entities;
+
+import java.io.Serializable;
+import java.util.Date;
+import java.util.List;
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "T_OSOBA")
+public class Osoba implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @Column(name="ID")
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(name="MENO")
+    private String meno;                
+
+    @Column(name="NARODENA")
+    @Temporal(TemporalType.DATE)
+    private Date narodena;                  // datum Narodenia
+
+    @Embedded
+    private Adresa bydlisko;                // adresa
+
+    private int vek;                        // aktualny vek osoby. Pozor! nie je v DB
+    
+    
+    @OneToMany(mappedBy="majitel")
+    private List<Auto> zoznamAut;           // zoznam aut patriacich osobe
+
+    public List<Auto> getZoznamAut() {
+        return zoznamAut;
+    }
+
+    public void setZoznamAut(List<Auto> zoznamAut) {
+        this.zoznamAut = zoznamAut;
+    }
+
+    public int getVek() {
+        return vek;
+    }
+
+    public void setVek(int vek) {
+        this.vek = vek;
+    }
+    public Adresa getBydlisko() {
+        return bydlisko;
+    }
+
+    public void setBydlisko(Adresa bydlisko) {
+        this.bydlisko = bydlisko;
+    }
+    public Date getNarodena() {
+        return narodena;
+    }
+
+    public void setNarodena(Date narodena) {
+        this.narodena = narodena;
+    }
+    public String getMeno() {
+        return meno;
+    }
+
+    public void setMeno(String meno) {
+        this.meno = meno;
+    }
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+}
